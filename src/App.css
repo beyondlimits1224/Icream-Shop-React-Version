@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --tertiary-color: #4e4c4c;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Poppins", sans-serif;
+  --primary-font-size: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.debug-yellow {
+  background-color: yellow;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.debug-red {
+  background-color: red;
+}
+
+.debug-blue {
+  background-color: blue;
+}
+
+html {
+  font-family: var(--primary-font);
+  font-size: var(--primary-font-size);
+  width: 100%;
+  height: 100%;
+}
+
+.d-flex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+header {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  font-family: var(--secondary-font);
+  font-weight: 900;
+}
+
+a {
+  text-decoration: none;
+}
+
+.brand-logo {
+  width: 160px;
+}
+
+.menu-item {
+  display: flex;
+  color: var(--tertiary-color);
+  text-transform: uppercase;
+}
+
+.menu-item li:not(:last-child) {
+  margin: 0 0.5rem 0 0;
+}
+
+.menu-item li a {
+  color: var(--tertiary-color);
+  transition: color 0.5s ease-in;
+}
+
+.menu-item li a:hover {
+  color: var(--secondary-color);
+}
+
+.active {
+  font-weight: 900;
+  color: var(--secondary-color) !important;
+}
+
+.hero {
+  width: 100%;
+}
+
+.products .item img {
+  width: 316px;
 }
