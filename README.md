@@ -1,1 +1,1 @@
-Ice Cream Shop an E-commerce website
+Ice Cream Shop an E-commerce website created in React
