@@ -37,7 +37,7 @@ html {
   height: 100%;
 }
 
-.d-flex {
+.flex-container {
   display: flex;
 }
 
@@ -89,4 +89,9 @@ a {
 
 .products .item img {
   width: 316px;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }

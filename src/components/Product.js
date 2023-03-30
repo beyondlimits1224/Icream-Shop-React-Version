@@ -5,7 +5,7 @@ export default function Product() {
 
   return (
     <div>
-      <ul className="products">
+      <ul className="products flex-container">
         <li className="item">
           <img src={imgsrc + "/images/ice-cream-1.jpg"} alt="Ice Cream 1" />
           <h2>Ice Cream 1</h2>

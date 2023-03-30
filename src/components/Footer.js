@@ -5,10 +5,10 @@ import Copyright from "./Copyright";
 
 export default function Footer() {
   return (
-    <div>
+    <footer>
       <BottomMenu />
       <BrandLogo />
       <Copyright />
-    </div>
+    </footer>
   );
 }

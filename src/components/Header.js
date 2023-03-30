@@ -5,7 +5,7 @@ import SecondaryMenu from "./SecondaryMenu";
 
 export default function Header() {
   return (
-    <header>
+    <header className="flex-container">
       <BrandLogo />
       <Nav />
       <SecondaryMenu />
