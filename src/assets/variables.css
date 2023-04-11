@@ -1,0 +1,10 @@
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --tertiary-color: #4e4c4c;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Poppins", sans-serif;
+  --primary-font-size: 16px;
+  --primary-max-width: min(1920px, 100%);
+  --secondary-max-width: min(1000px, 100%);
+}

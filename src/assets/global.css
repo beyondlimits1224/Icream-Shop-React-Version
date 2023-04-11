@@ -1,0 +1,71 @@
+.debug-yellow {
+  background-color: yellow;
+}
+
+.debug-red {
+  background-color: red;
+}
+
+.debug-blue {
+  background-color: blue;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.container {
+  width: var(--primary-max-width);
+}
+
+.container-800 {
+  width: var(--secondary-max-width);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}

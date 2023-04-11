@@ -4,8 +4,8 @@ export default function Product() {
   const imgsrc = process.env.PUBLIC_URL;
 
   return (
-    <div>
-      <ul className="products flex-container">
+    <div className="container-800 m-auto">
+      <ul className="products flex-container f-wrap">
         <li className="item">
           <img src={imgsrc + "/images/ice-cream-1.jpg"} alt="Ice Cream 1" />
           <h2>Ice Cream 1</h2>

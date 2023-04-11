@@ -6,7 +6,7 @@ export default function Main() {
   return (
     <div>
       <Hero />
-      <h2>Featured Products!</h2>
+      <h2 className="text-center mt-3 mb-3">Featured Products!</h2>
       <Product />
     </div>
   );
