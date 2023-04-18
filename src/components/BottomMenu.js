@@ -3,7 +3,7 @@ import React from "react";
 export default function () {
   return (
     <div>
-      <ul className="flex-container">
+      <ul className="flex-container jcc mt-3">
         <li>
           Quicklinks
           <ul>
