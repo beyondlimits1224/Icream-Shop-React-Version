@@ -7,7 +7,10 @@ export default function Footer() {
   return (
     <footer>
       <BottomMenu />
-      <BrandLogo />
+
+      <div className="text-center">
+        <BrandLogo />
+      </div>
       <Copyright />
     </footer>
   );
